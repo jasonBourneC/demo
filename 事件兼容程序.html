@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+</head>
+<body>
+	<button id="mybtn">我是按钮</button>
+	<div id="parent">
+		<div id="child">点击我冒泡</div>
+	</div>
+	<script>
+		//兼容所有浏览器
+		//addEventListener attachEvent
+		var EventUtil = {
+			addHandler:function(element,type,handler) {
+				if (element.addEventListener) {
+					element.addEventListener(type,handler,false);
+				}else if(element.attachEvent) {
+					element.attachEvent("on"+type,handler);
+				}else{
+					element["on"+type] = null
+				}
+			},
+			removeHandler:function(element,type,handler) {
+				if (element.removeEventListener) {
+					element.removeEventListener(type,handler,false);
+				}else if(element.detachEvent) {
+					element.detachEvent("on"+type,handler);
+				}else{
+					element["on"+type] = null
+				}
+			},
+			//Event对象兼容写法
+			//Event  addEventListener  主流浏览器      event.target/event.preventDefault/event.stopPropagation
+			//Event  attachEvent       IE8以下浏览器   event.srcElement/event.returnValue/event.canceBubble
+			getTarget:function(e) {
+				return e.target || e.srcElement;
+			},
+			getpreventDefault:function(e) {
+				if (e.preventDefault) {
+					e.preventDefault();
+				}else{
+					e.returnValue = false;
+				}
+			},
+			getstopPropagation:function(e) {
+				if (e.stopPropagation){
+					e.stopPropagation();
+				}else{
+					e.cancelBubble = true;
+				}
+			}
+		}
+
+		var btn = document.getElementById("mybtn");
+		var handler = function() {
+			alert("点击了");
+		}
+		EventUtil.addHandler(btn,"click",handler);
+
+
+		
+
+		var cld = document.getElementById("child");
+		var par = document.getElementById("parent");
+		var childChick = function(e) {
+			alert("点击了儿子");
+			EventUtil.getstopPropagation(e);
+
+			
+		}
+		var parentChick = function() {
+			alert("弹出了父亲");
+		}
+		EventUtil.addHandler(cld,"click",childChick);
+		EventUtil.addHandler(par,"click",parentChick);
+
+	</script>
+</body>
+</html>
