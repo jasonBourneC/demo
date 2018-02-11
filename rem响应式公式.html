@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	
+	<script>
+		(function(doc,win){
+			var docEl = doc.documentElement,
+				resizeEvt = 'orientationonchange' in window ? 'orientationonchange' : 'resize',
+				recalc = function () {
+					var clientWidth = docEl.clientWidth;
+					if (!clientWidth) return;
+					if (clientWidth>=750) {
+						docEl.style.fontSize = '100px';
+					}else{
+						docEl.style.fontSize = 100 * (clientWidth / 750) + 'px';
+					}
+				};
+			if (!doc.addEventListener) return;
+			win.addEventListener(resizeEvt,recalc,false);
+			doc.addEventListener('DOMContentLoaded',recalc,false);		
+			recalc();
+		})(document,window);
+
+
+
+
+
+
+
+
+		(function () {
+            var newRem = function () {
+                var html = document.documentElement;
+                html.style.width = '100%';
+
+                if (html.getBoundingClientRect().width > 1024) {
+                    html.style.fontSize = 80 + 'px';
+                    html.style.width = 1024 + 'px';
+                    html.style.margin = '0 auto';
+                    return true;
+                } else {
+                    html.style.fontSize = html.getBoundingClientRect().width / 10 + 'px';
+                }
+            };
+            window.addEventListener('resize', newRem, false);
+            newRem();
+        })();
+
+	</script>
+
+</body>
+</html>
