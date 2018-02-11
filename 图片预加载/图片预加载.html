@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+	<ul class="course">
+		<li class="course-item">
+			<div class="img-container"><img src="img/example.jpg" alt="" data-src="img/1.jpg" class="lazy"></div>
+			<p>图片预加载</p>
+		</li>
+		<li class="course-item">
+			<div class="img-container"><img src="img/example.jpg" alt="" data-src="img/2.jpg" class="lazy"></div>
+			<p>图片预加载</p>
+		</li>
+		<li class="course-item">
+			<div class="img-container"><img src="img/example.jpg" alt="" data-src="img/3.jpg" class="lazy"></div>
+			<p>图片预加载</p>
+		</li>
+		<li class="course-item">
+			<div class="img-container"><img src="img/example.jpg" alt="" data-src="img/4.jpg" class="lazy"></div>
+			<p>图片预加载</p>
+		</li>
+		<li class="course-item">
+			<div class="img-container"><img src="img/example.jpg" alt="" data-src="img/5.jpg" class="lazy"></div>
+			<p>图片预加载</p>
+		</li>
+		<li class="course-item">
+			<div class="img-container"><img src="img/example.jpg" alt="" data-src="img/6.jpg" class="lazy"></div>
+			<p>图片预加载</p>
+		</li>
+		<li class="course-item">
+			<div class="img-container"><img src="img/example.jpg" alt="" data-src="img/7.jpg" class="lazy"></div>
+			<p>图片预加载</p>
+		</li>
+		<li class="course-item">
+			<div class="img-container"><img src="img/example.jpg" alt="" data-src="img/8.jpg" class="lazy"></div>
+			<p>图片预加载</p>
+		</li>
+		<li class="course-item">
+			<div class="img-container"><img src="img/example.jpg" alt="" data-src="img/9.jpg" class="lazy"></div>
+			<p>图片预加载</p>
+		</li>
+		<li class="course-item">
+			<div class="img-container"><img src="img/example.jpg" alt="" data-src="img/10.jpg" class="lazy"></div>
+			<p>图片预加载</p>
+		</li>
+		<li class="course-item">
+			<div class="img-container"><img src="img/example.jpg" alt="" data-src="img/11.jpg" class="lazy"></div>
+			<p>图片预加载</p>
+		</li>
+		<li class="course-item">
+			<div class="img-container"><img src="img/example.jpg" alt="" data-src="img/12.jpg" class="lazy"></div>
+			<p>图片预加载</p>
+		</li>
+		<li class="course-item">
+			<div class="img-container"><img src="img/example.jpg" alt="" data-src="img/13.jpg" class="lazy"></div>
+			<p>图片预加载</p>
+		</li>
+		<li class="course-item">
+			<div class="img-container"><img src="img/example.jpg" alt="" data-src="img/14.jpg" class="lazy"></div>
+			<p>图片预加载</p>
+		</li>
+		<li class="course-item">
+			<div class="img-container"><img src="img/example.jpg" alt="" data-src="img/15.jpg" class="lazy"></div>
+			<p>图片预加载</p>
+		</li>
+		<li class="course-item">
+			<div class="img-container"><img src="img/example.jpg" alt="" data-src="img/16.jpg" class="lazy"></div>
+			<p>图片预加载</p>
+		</li>
+	</ul>
+
+
+	<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+	<script>
+		var $img = $('.lazy'),
+			$win = $(window),
+			timer = null;
+
+ 		bindEvent();
+		load();	
+
+		//绑定事件
+		function bindEvent(){
+			$win.on('scroll resize',function () {
+				if(timer) return;
+				timer = setTimeout(function () {
+					load();
+					timer = null;
+				}, 250);
+			})
+		}
+
+		//位置检测
+		function inVisibleArea (elem) {
+				return $win.scrollTop() + $win.height() >= $(elem).offset().top;
+			}
+		//显示图片
+		function appear(elem){
+			elem.src = $(elem).data('src');
+		}	
+		//加载图片
+		function load(){
+			$img.each(function () {
+				if (inVisibleArea(this)) {
+					appear(this);
+				}
+			})
+		}
+	</script>
+</body>
+</html>

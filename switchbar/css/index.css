@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: '微软雅黑';
+}
+.main{
+    width: 1200px;
+    height: 520px;
+    margin: 50px auto;
+    position: relative;
+}
+.menu-box{
+    width: 1198px;
+    height: 60px;
+    border: 1px solid #eee;
+    overflow: hidden;
+}
+.menu{
+    width: 1210px;
+
+}
+.menu-item{
+    width: 299px;
+    height: 60px;
+    float: left;
+    color: #666;
+    line-height: 60px;
+    text-align: center;
+    border-right: 1px solid #eee;
+    cursor: pointer;
+}
+.menu-item-active{
+    background-color: #ffcc00;
+}
+.banner-slide{
+    width: 1200px;
+    height: 460px;
+    background-color: #2e84ce;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    display: none;
+}
+.slide1{
+    background: url("../img/1.jpg") no-repeat;
+}
+.slide2{
+    background: url("../img/3.jpg") no-repeat;
+}
+.slide3{
+    background: url("../img/4.jpg") no-repeat;
+}
+.slide4{
+    background: url("../img/5.jpg") no-repeat;
+}
+.slide-active{
+    display: block;
+}

@@ -1,0 +1,651 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"w",
+				"width"
+			],
+			[
+				"a",
+				"auto"
+			],
+			[
+				"m",
+				"margin"
+			],
+			[
+				"r",
+				"right"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
+				"b",
+				"background"
+			],
+			[
+				"lf",
+				"left"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"re",
+				"relative"
+			],
+			[
+				"font-",
+				"font-weight"
+			],
+			[
+				"fw",
+				"font-weight"
+			],
+			[
+				"mt",
+				"margin-top"
+			],
+			[
+				"ml",
+				"margin-left"
+			],
+			[
+				"f",
+				"function\t(array.html)"
+			],
+			[
+				"vue",
+				"vue"
+			],
+			[
+				"func",
+				"function_without_name"
+			],
+			[
+				"l",
+				"length"
+			],
+			[
+				"ar",
+				"argument"
+			],
+			[
+				"fun",
+				"function_without_name"
+			],
+			[
+				"br",
+				"break"
+			],
+			[
+				"console",
+				"console_log"
+			],
+			[
+				"pro",
+				"prompt"
+			],
+			[
+				"wh",
+				"while"
+			],
+			[
+				"p",
+				"parent\t.parent()"
+			],
+			[
+				"d",
+				"document"
+			],
+			[
+				"for",
+				"for\tfor (…) {…} (Improved Native For-Loop)"
+			],
+			[
+				"arr",
+				"Array\t( size: int ): Array Array"
+			],
+			[
+				"str",
+				"String\t( value: any ): String String"
+			],
+			[
+				"fle",
+				"flex"
+			],
+			[
+				"c",
+				"color"
+			],
+			[
+				"doc",
+				"document"
+			],
+			[
+				"do",
+				"document\t(success.html)"
+			],
+			[
+				"fu",
+				"fullscreenElement\t: Element (Fullscreen) Document"
+			],
+			[
+				"sc",
+				"scrollTop\t.scrollTop()"
+			],
+			[
+				"cl",
+				"clear"
+			],
+			[
+				"lh",
+				"line-height"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"list-",
+				"list-style"
+			],
+			[
+				"user",
+				"userModifier"
+			],
+			[
+				"va",
+				"value"
+			],
+			[
+				"v",
+				"value"
+			],
+			[
+				"Re",
+				"RegExp\t( pattern: any, flags: string ): RegExp RegExp"
+			],
+			[
+				"onc",
+				"onclick\t: EventHandler Window"
+			],
+			[
+				"matching",
+				"matchingBtn"
+			],
+			[
+				"matc",
+				"matchingResult"
+			],
+			[
+				"getE",
+				"getElementById\t( elementId: DOMString ): Element Document"
+			],
+			[
+				"border-r",
+				"border-radius"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"ce",
+				"center"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"chi",
+				"child"
+			],
+			[
+				"ch",
+				"child"
+			],
+			[
+				"stop",
+				"stopPropagation\t(): void Event"
+			],
+			[
+				"prev",
+				"preventDefault\t(): void Event"
+			],
+			[
+				"Even",
+				"EventUtil"
+			],
+			[
+				"ha",
+				"handler"
+			],
+			[
+				"fa",
+				"false"
+			],
+			[
+				"cons",
+				"console_log"
+			],
+			[
+				"bl",
+				"block"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"pa",
+				"padding-left"
+			],
+			[
+				"ma",
+				"margin-bottom"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"u",
+				"url()"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"onl",
+				"onload\t: EventHandler FileReader"
+			],
+			[
+				"t",
+				"translate\tAttr"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/F/项目文件/支付宝/nexpay.css",
+			"settings":
+			{
+				"buffer_size": 2202,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				" in",
+				"Package Control: Install Package"
+			],
+			[
+				"iew",
+				"View: Toggle Menu"
+			],
+			[
+				"v",
+				"View: Toggle Tabs"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 540.0
+	},
+	"console":
+	{
+		"height": 130.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())",
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Administrator/Desktop/birthday",
+		"/C/Users/Administrator/Desktop/birthday/js",
+		"/C/Users/Administrator/Desktop/预加载"
+	],
+	"file_history":
+	[
+		"/F/项目文件/红包攻略/css/pc-index.css",
+		"/F/pm_ui_fe/action/fe/红包攻略/css/browser.css",
+		"/C/Users/Administrator/Desktop/browser.css",
+		"/F/pm_ui_fe/action/fe/红包攻略/js/preload.js",
+		"/F/项目文件/cifnews_nav/index.html",
+		"/F/项目文件/cifnews_nav/css/common.css",
+		"/F/pm_ui_fe/action/fe/红包攻略/css/app.css",
+		"/F/项目文件/红包攻略/css/app.css",
+		"/F/pm_ui_fe/action/fe/红包攻略/js/index.js",
+		"/F/pm_ui_fe/action/fe/红包攻略/index.html",
+		"/C/Users/Administrator/Desktop/预加载/1.js",
+		"/C/Users/Administrator/Desktop/预加载/1.html",
+		"/C/Users/Administrator/Desktop/array.html",
+		"/F/pm_ui_fe/action/fe/留资2.0/css/index.css",
+		"/C/Users/Administrator/Desktop/vue.html",
+		"/F/项目文件/报名表单-答谢会/js/index.js",
+		"/C/Users/Administrator/Desktop/demo/rem响应式公式.html",
+		"/F/项目文件/报名表单-答谢会/index.html",
+		"/F/git/cceedemo/cceedemo/wwwroot/css/index.css",
+		"/F/pm_ui_fe/action/fe/留资2.0/css/Common.css",
+		"/F/项目文件/留资2.0/index-PC.html",
+		"/C/Users/Administrator/Desktop/index.css",
+		"//192.168.0.12/sharetemp/en_ccee/wwwroot/css/index.css",
+		"//192.168.0.12/sharetemp2/en_ccee/wwwroot/css/index.css",
+		"//192.168.0.12/share/en_ccee/wwwroot/css/index.css",
+		"//192.168.0.12/share/en_ccee/tempwwwroot/css/index.css",
+		"//192.168.0.12/share/en_ccee/tempwwwroot/css/index-rem.css",
+		"/F/项目文件/雨课报名成功/css/Common.css",
+		"/F/static/yuke/css/detail.css",
+		"/C/Users/Administrator/Desktop/birthday/birthday.html",
+		"/C/Users/Administrator/Desktop/birthday/js/test.js",
+		"/C/Users/Administrator/Desktop/sdfsdf.html",
+		"/C/Users/Administrator/Desktop/builder.html",
+		"/C/Users/Administrator/Desktop/birthday/js/test",
+		"/C/Users/Administrator/Desktop/for.html",
+		"/C/Users/Administrator/Desktop/lx/index.html",
+		"/F/项目文件/cifnews_footer/index.html",
+		"//192.168.0.12/share/en_ccee/views/Shared/_LayoutM.cshtml",
+		"/F/项目文件/报名表单-ccee/success.html",
+		"/F/项目文件/ccee英文站M/index.html",
+		"/C/Users/Administrator/Desktop/ysf/index.html",
+		"/F/项目文件/cifnews_footer/css/common.css",
+		"/F/pm_ui_fe/action/fe/留资2.0/css/iframe.css",
+		"/F/pm_ui_fe/action/fe/留资2.0/css/index-M.css",
+		"/F/项目文件/雨课报名成功/css/index-M.css",
+		"/F/项目文件/报名表单-ccee/css/success.css",
+		"/C/Users/Administrator/Desktop/demo/正则表达式测试工具.html",
+		"/F/项目文件/cifnews_footer/css/index.css",
+		"/F/项目文件/图文直播/css/index.css",
+		"/F/项目文件/图文直播/index.html",
+		"/F/static/active/extends/2018CCEE/css/ccee-en.css",
+		"/F/static/active/extends/2018CCEE/css/ccee-ch.css",
+		"/F/index-rem.css",
+		"/F/pm_ui_fe/ccee/ccee英文站M/index.html",
+		"/F/static/active/extends/2018CCEE/css/maxwidth1440-ch.css",
+		"/F/static/active/extends/2018CCEE/css/maxwidth1440-en.css",
+		"/C/Users/Administrator/Desktop/demo/图片预加载/css/index.css",
+		"/C/Users/Administrator/Desktop/Swiper-4.0.7/dist/css/swiper.min.css",
+		"/C/Users/Administrator/Desktop/demo/11.html",
+		"/C/Users/Administrator/Desktop/Swiper-4.0.7/dist/js/swiper.min.js",
+		"/C/Users/Administrator/Desktop/jiaoben5003/js/flexible.js",
+		"/C/Users/Administrator/Desktop/jiaoben5003/js/navbarscroll.js",
+		"/C/Users/Administrator/Desktop/jiaoben5003/index.html",
+		"/C/Users/Administrator/Desktop/11.html",
+		"/C/Users/Administrator/Desktop/ccee英文站/css/ft-carousel.css",
+		"/C/Users/Administrator/Desktop/jiaoben5003/js/iscroll.js",
+		"/C/Users/Administrator/Desktop/Swiper-4.0.7/dist/js/swiper.js",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/.jsbeautifyrc",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
+		"/C/Users/Administrator/Desktop/Swiper-4.0.7/scripts/build-config.js",
+		"/C/Users/Administrator/Desktop/Swiper-4.0.7/scripts/banner.js",
+		"/C/Users/Administrator/Desktop/Swiper-4.0.7/package.js",
+		"/C/Users/Administrator/Desktop/Swiper-4.0.7/gulpfile.js",
+		"/C/Users/Administrator/Desktop/报名/css/indexm.css",
+		"/C/Users/Administrator/Desktop/报名/css/index.css",
+		"/F/static/action/extends/common/index.js",
+		"/F/项目文件/图文直播/css/common.css",
+		"/F/pm_ui_fe/live/fe/图文直播/index.html",
+		"/C/Users/Administrator/Desktop/work/js/index.js",
+		"/C/Users/Administrator/Desktop/common.css",
+		"/F/pm_ui_fe/live/fe/图文直播/css/index.css",
+		"/C/Users/Administrator/Desktop/cifnews_nav/js/liveCommon.js",
+		"/F/项目文件/2018CCEE/2018CCEE/css/common.css",
+		"/F/static/active/extends/111dxh/css/index-EN.css",
+		"/F/static/live/css/index.css",
+		"/C/Users/Administrator/Desktop/nexpay.css",
+		"/F/static/webpay/css/nexpay.css",
+		"/F/static/yuguo/css/new_cifnews.css",
+		"/F/static/yuguo/css/foota.css",
+		"/F/static/webpay/css/index.css",
+		"/F/static/webpay/css/wechatpay.css",
+		"/F/pm_ui_fe/action/fe/facebook-email/Facebook邮件.html",
+		"/F/static/yuguo/css/new_base.css",
+		"/F/项目文件/2018CCEE/2018CCEE/Mindex.html",
+		"/F/项目文件/亚马逊20171215/index.html",
+		"/F/pm_ui_fe/action/fe/亚马逊20171215/index.html",
+		"/F/项目文件/2018CCEE/2018CCEE/css/ccee-ch.css",
+		"/F/项目文件/2018CCEE/2018CCEE/index.html",
+		"/F/static/cms/theme/default/frame/nav1.css",
+		"/F/static/cms/frame/header3.css",
+		"/F/static/cms/theme/000000/frame/activity.css",
+		"/F/static/cms/frame/box2.css",
+		"/F/static/cms/theme/default/frame/box1.css",
+		"/F/static/cms/theme/default/frame/banner1.css",
+		"/F/static/cms/theme/default/frame/banner2.css",
+		"/F/static/cms/theme/default/frame/activity.css",
+		"/C/Users/Administrator/Desktop/Facebook邮件.html",
+		"/F/项目文件/报名表单-答谢会/css/success.css",
+		"/F/项目文件/报名表单-答谢会/css/indexM.css",
+		"/F/项目文件/报名表单-答谢会/css/index.css",
+		"/F/项目文件/报名表单-答谢会/css/successM.css",
+		"/F/static/action/extends/common/indexM.css",
+		"/F/static/action/extends/common/successM.css",
+		"/F/项目文件/报名表单-ccee/index.html",
+		"/F/action/Enroll.Web/Content/extends/yuke_li/style.css",
+		"/F/static/action/extends/yuke_li/style.css",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
+		"/F/项目文件/报名表单/success.html",
+		"/C/Users/Administrator/Desktop/报名/index.html",
+		"/C/Users/Administrator/Desktop/index.html",
+		"/F/报名表单/index.html",
+		"/C/Users/Administrator/Desktop/门票/index.html",
+		"/C/Users/Administrator/Desktop/111.html"
+	],
+	"find":
+	{
+		"height": 28.0
+	},
+	"find_in_files":
+	{
+		"height": 110.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			">\n",
+			"loading",
+			"progress",
+			"active",
+			"nav-item",
+			"flexslider",
+			"#on",
+			".on",
+			"on",
+			"text1",
+			"]));\n",
+			" document.write(arrReverse([1,2,3,4,5,6,7,8]));"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/F/项目文件/支付宝/nexpay.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2202,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS3/CSS3.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 540.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 43.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.nodejs":
+	{
+		"height": 132.0
+	},
+	"pinned_build_system": "",
+	"project": "图片预加载.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 183.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

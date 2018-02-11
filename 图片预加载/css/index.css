@@ -1,0 +1,41 @@
+body,p,ul,li{
+	margin: 0;
+	padding: 0;
+}
+li{
+	list-style-type: none; 
+}
+body{
+	background: #edeff0;
+}
+.course{
+	width: 1208px;
+	background-color: #fff;
+	padding: 20px 0 0 20px;
+	margin: 950px auto;
+}
+.course::after{
+	content: " ";
+	display: block;
+	clear: both;
+}
+.course-item{
+	float: left;
+	width: 280px;
+	border: 1px solid #ebebeb;
+	background-color: #fff;
+	box-shadow: 0 1px 2px #c5c5c5;
+	margin: 0 20px 20px 0;
+	cursor: pointer; 
+}
+.course-item:hover{
+	box-shadow: 0 2px 8px #bbb;
+}
+.img-container{
+	height: 160px;
+	overflow: hidden;
+}
+.course p{
+	text-align: center;
+	line-height: 54px;
+}
